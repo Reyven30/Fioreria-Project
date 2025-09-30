@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <title>Vendita Fiori Online</title>
+</head>
+
+<body>
+  <div class="background" id="background">
+    <div class="testo">
+      <h1 class="title">Il Fioraio</h1>
+      <h3 class="title2">
+        La tradizione si fonde con la moderna arte del Flower Design
+      </h3>
+    </div>
+    <img src="Img/background.jpg" />
+  </div>
+  <header class="header">
+    <a href="index.html" class="logo">Il Fioraio</a>
+
+    <input type="checkbox" id="check" />
+    <label for="check" class="icons">
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <i class="bx bx-x" id="close-icon"></i>
+    </label>
+
+    <nav class="navbar">
+      <a href="#background" style="--i: 0">HOME</a>
+      <a href="#fiori" style="--i: 1">PRODUCTS</a>
+      <a href="#info" style="--i: 1">INFO</a>
+
+    </nav>
+  </header>
+
+
+
+  <section class="fiori" id="fiori">
+    <h3 class="subtext">I Nostri Prodotti</h3>
+    <h1 class="text">I Più Scelti</h1>
+
+    <div class="contenitore">
+      <div class="box">
+        <i class="bx bxs-heart" id="bx"></i>
+        <img src="Img/fiore1.png" alt="" class="immagine" />
+        <h3 class="nome">Girasole</h3>
+        <p>
+          Regalare un fiore di Girasole equivale a rimarcare il carattere
+          gioioso e allegro con cui, la persona che lo riceve, affronta la
+          vita.
+        </p>
+        <div class="stelle">
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star-half"></i>
+        </div>
+        <div class="quantita"><span class="costo">$4.99</span> <input type="number" value="0" class="numero" /></div>
+
+      </div>
+
+      <div class="box">
+        <i class="bx bxs-heart" id="bx"></i>
+        <img src="Img/fiore2.png" alt="" class="immagine" />
+        <h3 class="nome">Giglio</h3>
+        <p>
+          Il Giglio o Lilium è il fiore perfetto per una nascita, ma anche da
+          regalare a una donna in attesa. Giglio Bianco: verginità, purezza,
+          maestà.
+        </p>
+        <div class="stelle">
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star-half"></i>
+        </div>
+        <div class="quantita"><span class="costo">$3.99</span> <input type="number" value="0" class="numero" /></div>
+      </div>
+
+      <div class="box">
+        <i class="bx bxs-heart" id="bx"></i>
+        <img src="Img/fiore3.png" alt="" class="immagine" />
+        <h3 class="nome">Mazzo Di Rose Bianche</h3>
+        <p>
+          Le rose bianche simboleggiano l'innocenza, il fascino e la purezza.
+          È per questo motivo che in molti matrimoni questi sono i fiori
+          principali della cerimonia.
+        </p>
+        <div class="stelle">
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star-half"></i>
+        </div>
+        <div class="quantita"><span class="costo">$59.99</span> <input type="number" value="0" class="numero" /></div>
+
+      </div>
+
+      <div class="box">
+        <i class="bx bxs-heart" id="bx"></i>
+        <img src="Img/fiore4.png" alt="" class="immagine" />
+        <h3 class="nome">Mazzo Di Fiori Rosa</h3>
+        <p>
+          Con i fiori rosa comunicherai grande ammirazione e gratitudine nei
+          confronti di una persona a cui tieni.
+        </p>
+        <div class="stelle">
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star"></i>
+          <i class="bx bxs-star-half"></i>
+        </div>
+        <div class="quantita"><span class="costo">$49.99</span> <input type="number" value="0" class="numero" /></div>
+
+      </div>
+    </div>
+
+    <div class="scontrino" id="scontrino">
+
+      <div class="scontrino-header">
+        <h1 class="titoloScontrino">SCONTRINO</h1>
+      </div>
+
+      <div class="corpo">
+        <div class="boh">
+          <p class="tot1">
+          </p>
+          <p class="prezzo1">
+          </p>
+        </div>
+        <div class="boh">
+          <p class="tot2">
+          </p>
+          <p class="prezzo2">
+          </p>
+        </div>
+        <div class="boh">
+          <p class="tot3">
+          </p>
+          <p class="prezzo3">
+          </p>
+        </div>
+        <div class="boh">
+          <p class="tot4">
+          </p>
+          <p class="prezzo4">
+          </p>
+        </div>
+        <div class="total">
+          <p class="spesatotale">TOTALE:</p>
+          <p class="prezzototale">$0</p>
+        </div>
+      </div>
+    </div>
+    <div id="overlay"></div>
+  </section>
+
+  <div class="sezione">
+    <div class="consegna">
+
+      <form action="">
+        <div class="fila">
+          <div class="colonna">
+            <h3 class="via">Billing Address</h3>
+
+            <div class="inputBox">
+              <span>Full Name :</span>
+              <input type="text" placeholder="Full Name">
+            </div>
+
+            <div class="inputBox">
+              <span>Email :</span>
+              <input type="text" placeholder="Email">
+            </div>
+
+            <div class="inputBox">
+              <span>Address :</span>
+              <input type="text" placeholder="Address">
+            </div>
+
+            <div class="inputBox">
+              <span>City :</span>
+              <input type="text" placeholder="City">
+            </div>
+
+            <div class="flex">
+              <div class="inputBox">
+                <span>State :</span>
+                <input type="text" placeholder="State">
+                <div class="inputBox">
+                  <span>Zip Code :</span>
+                  <input type="text" placeholder="Zip Code">
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class="colonna">
+            <h3 class="via">Pagamenti</h3>
+
+            <div class="inputBox">
+              <span>Cards Accepted :</span>
+              <img src="Img/pagamenti.png" alt="">
+            </div>
+
+            <div class="inputBox">
+              <span>Name On Card :</span>
+              <input type="text" placeholder="Name On Card">
+            </div>
+
+            <div class="inputBox">
+              <span>Credit Card Number :</span>
+              <input type="number" placeholder="Credit Card Number">
+            </div>
+
+            <div class="inputBox">
+              <span>Exp Month :</span>
+              <input type="text" placeholder="Exp Month">
+            </div>
+
+            <div class="flex">
+              <div class="inputBox">
+                <span>Exp Year :</span>
+                <input type="number" placeholder="Exp Year">
+                <div class="inputBox">
+                  <span>CVV :</span>
+                  <input type="text" placeholder="CVV">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <input type="sumbit" value="Proceed To Checkout" class="submit">
+      </form>
+
+    </div>
+
+    <div class="contacts">
+      <p class="mappa"><iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2000.4426247552663!2d11.622949794684605!3d44.84085214831626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477e4e15c7f2c233%3A0xc1f0990ebf977d94!2sVia%20Palestro%2C%2093A%2C%2044121%20Ferrara%20FE!5e0!3m2!1sit!2sit!4v1697077553480!5m2!1sit!2sit"
+          width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+      <h5>CONTACTS</h5>
+
+      <p5 class="info"><br>Via Palestro, 93A</br>
+        <br>44121 Ferrara</br>
+        <br>P. IVA 01772640387</br>
+        <br>0532 218311</br>
+        <br>Fax 0532 247353</br>
+        <br>info@ilfioraioferrara.it</br>
+      </p5>
+    </div>
+  </div>
+
+  <footer>
+    <div class="container">
+      <p class="footer">copyright &copy;2021 codeOpacity. designed by <span>Reyven Flores</span></p>
+  </footer>
+  <script src="index.js"></script>
+
+
+
+
+</body>
+
+</html>
