@@ -1,2 +1,2 @@
 # Fioreria-Project
-School Project for an online shop
+School Project in html, css and js for an online shop
